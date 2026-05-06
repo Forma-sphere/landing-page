@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -n -o 'src=\"[^\"]\\\\{0,80\\\\}' \"C:\\\\Users\\\\Ousseni FFU\\\\Downloads\\\\landing page liberty formation\\\\index7.html\")",
+      "Bash(awk 'NR==2296 {match\\($0, /data:image\\\\/svg\\\\+xml;base64,[A-Za-z0-9+\\\\/=]+/\\); s=substr\\($0, RSTART, RLENGTH\\); sub\\(/data:image\\\\/svg\\\\+xml;base64,/, \"\", s\\); print s}' \"C:\\\\Users\\\\Ousseni FFU\\\\Downloads\\\\landing page liberty formation\\\\index7.html\")",
+      "Bash(awk 'NR==2296' \"C:\\\\Users\\\\Ousseni FFU\\\\Downloads\\\\landing page liberty formation\\\\index7.html\")",
+      "Bash(git init *)",
+      "Bash(git config *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ]
+  }
+}
