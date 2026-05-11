@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<!-- SEO -->
+<title>Conférence Liberty Formation - Rennes 30 Mai 2026 - Votre premier pas vers l'OF de vos rêves</title>
+<meta name="description" content="Conférence exclusive le 30 mai à Rennes. Découvrez comment lancer et automatiser votre organisme de formation en 90 jours. Certification Qualiopi + système automatisé. Gratuit, places limitées." />
+<meta name="keywords" content="conférence formation, Rennes, Qualiopi, organisme de formation, Liberty Formation" />
+<meta name="author" content="Liberty Formation" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Conférence Liberty Formation - Rennes 30 Mai 2026" />
+<meta property="og:description" content="Découvrez comment lancer votre OF certifié en 90 jours. Conférence gratuite le 30 mai à Rennes." />
+<meta property="og:locale" content="fr_FR" />
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+<!-- Favicon -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%230A0A0A'/%3E%3Ctext x='50' y='68' font-family='Georgia' font-size='60' fill='%23C9A84C' text-anchor='middle' font-style='italic'%3EL%3C/text%3E%3C/svg%3E" />
+
+<style>
+/* =========================================================
+   CONFÉRENCE LIBERTY FORMATION
+   Palette : noir profond #0A0A0A — or #C9A84C — crème #F5F0E8
+   Typo : Cormorant Garamond (display) + DM Sans (body)
+   ========================================================= */
+
+:root {
+  --black: #0A0A0A;
+  --black-soft: #121212;
+  --black-elev: #1A1A1A;
+  --gold: #C9A84C;
+  --gold-soft: #B8973A;
+  --gold-glow: rgba(201, 168, 76, 0.25);
+  --cream: #F5F0E8;
+  --cream-soft: #EAE3D5;
+  --text: #E8E4DA;
+  --text-dim: #888888;
+  --text-faint: #555555;
+  --border: rgba(201, 168, 76, 0.18);
+  --border-soft: rgba(255, 255, 255, 0.06);
+
+  --font-display: 'Cormorant Garamond', 'Times New Roman', serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --container: 1240px;
+  --radius: 2px;
+  --radius-md: 6px;
+
+  --section-pad: clamp(80px, 12vw, 160px);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--font-body);
+  background: var(--black);
+  color: var(--text);
+  line-height: 1.65;
+  font-size: 17px;
+  font-weight: 400;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  mix-blend-mode: overlay;
+}
+
+body.floating-cta-visible { padding-bottom: 86px; }
+
+img, svg { display: block; max-width: 100%; }
+button { font-family: inherit; border: none; background: none; cursor: pointer; color: inherit; }
+a { color: inherit; text-decoration: none; }
+ul, ol { list-style: none; }
+
+/* Typography */
+h1, h2, h3, h4, h5 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  line-height: 1.05;
+  letter-spacing: -0.018em;
+  color: var(--cream);
+}
+h1 { font-size: clamp(3rem, 7.5vw, 6.4rem); }
+h2 { font-size: clamp(2.2rem, 4.6vw, 3.8rem); }
+h3 { font-size: clamp(1.4rem, 1.9vw, 1.75rem); }
+h4 { font-size: 1.2rem; font-family: var(--font-body); font-weight: 500; }
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+.eyebrow::before {
+  content: "";
+  width: 32px;
+  height: 1px;
+  background: var(--gold);
+}
+
+.italic-serif { font-style: italic; font-family: var(--font-display); color: var(--gold); }
+.container {
+  width: 100%;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 clamp(20px, 4vw, 48px);
+}
+
+section { position: relative; padding: var(--section-pad) 0; }
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 18px 34px;
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-radius: var(--radius);
+  transition: all 0.3s var(--ease);
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.btn-primary {
+  background: var(--gold);
+  color: var(--black);
+  border: 1px solid var(--gold);
+}
+
+.btn-primary::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, transparent 30%, rgba(255,255,255,0.35) 50%, transparent 70%);
+  transform: translateX(-100%);
+  transition: transform 0.7s var(--ease);
+}
+
+.btn-primary:hover::before { transform: translateX(100%); }
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 36px -8px var(--gold-glow);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--cream);
+  border: 1px solid var(--border);
+}
+
+.btn-ghost:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+  transform: translateY(-2px);
+}
+
+.btn .arrow {
+  display: inline-block;
+  transition: transform 0.3s var(--ease);
+}
+
+.btn:hover .arrow { transform: translateX(4px); }
+
+/* Navigation */
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 20px 0;
+  transition: all 0.4s var(--ease);
+}
+
+.nav.scrolled {
+  padding: 14px 0;
+  background: rgba(10, 10, 10, 0.85);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 clamp(20px, 4vw, 48px);
+}
+
+.logo {
+  font-family: var(--font-display);
+  font-size: 1.85rem;
+  font-weight: 500;
+  color: var(--cream);
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.logo .dot { color: var(--gold); }
+.logo-sub { font-size: 0.6em; color: var(--text-dim); }
+
+.nav-links {
+  display: flex;
+  gap: 36px;
+  font-size: 0.82rem;
+  letter-spacing: 0.06em;
+}
+
+.nav-links a {
+  color: var(--text-dim);
+  transition: color 0.3s var(--ease);
+}
+
+.nav-links a:hover { color: var(--gold); }
+
+.nav-cta {
+  padding: 12px 22px;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border: 1px solid var(--gold);
+  color: var(--gold);
+  border-radius: var(--radius);
+  transition: all 0.3s var(--ease);
+}
+
+.nav-cta:hover {
+  background: var(--gold);
+  color: var(--black);
+}
+
+@media (max-width: 900px) {
+  .nav-links { display: none; }
+}
+
+/* Hero */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-top: 80px;
+  background: radial-gradient(ellipse 800px 600px at 60% 0%, rgba(201, 168, 76, 0.15), transparent 70%);
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cg stroke='rgba(201,168,76,0.05)' stroke-width='0.5'%3E%3Cline x1='0' y1='0' x2='100' y2='0'/%3E%3Cline x1='0' y1='10' x2='100' y2='10'/%3E%3Cline x1='0' y1='20' x2='100' y2='20'/%3E%3Cline x1='0' y1='30' x2='100' y2='30'/%3E%3Cline x1='0' y1='40' x2='100' y2='40'/%3E%3Cline x1='0' y1='50' x2='100' y2='50'/%3E%3Cline x1='0' y1='60' x2='100' y2='60'/%3E%3Cline x1='0' y1='70' x2='100' y2='70'/%3E%3Cline x1='0' y1='80' x2='100' y2='80'/%3E%3Cline x1='0' y1='90' x2='100' y2='90'/%3E%3Cline x1='0' y1='100' x2='100' y2='100'/%3E%3Cline x1='0' y1='0' x2='0' y2='100'/%3E%3Cline x1='10' y1='0' x2='10' y2='100'/%3E%3Cline x1='20' y1='0' x2='20' y2='100'/%3E%3Cline x1='30' y1='0' x2='30' y2='100'/%3E%3Cline x1='40' y1='0' x2='40' y2='100'/%3E%3Cline x1='50' y1='0' x2='50' y2='100'/%3E%3Cline x1='60' y1='0' x2='60' y2='100'/%3E%3Cline x1='70' y1='0' x2='70' y2='100'/%3E%3Cline x1='80' y1='0' x2='80' y2='100'/%3E%3Cline x1='90' y1='0' x2='90' y2='100'/%3E%3Cline x1='100' y1='0' x2='100' y2='100'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 100px 100px;
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  max-width: 900px;
+}
+
+.hero-content h1 {
+  margin-bottom: 24px;
+  line-height: 1.1;
+}
+
+.hero-content .gold { color: var(--gold); }
+
+.hero-date {
+  font-size: 1.1rem;
+  color: var(--gold);
+  margin-bottom: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hero-location {
+  font-size: 0.95rem;
+  color: var(--text-dim);
+  margin-bottom: 48px;
+}
+
+.hero-ctas {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero-ctas .btn {
+  padding: 20px 40px;
+  font-size: 0.95rem;
+}
+
+/* Section heads */
+.section-head {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 64px;
+  text-align: center;
+}
+
+.section-head h2 { margin: 0; }
+.section-head p {
+  font-size: 1.05rem;
+  color: var(--text-dim);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* 3-column grid */
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  margin-bottom: 0;
+}
+
+.grid-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border);
+  padding: 40px 32px;
+  border-radius: 8px;
+  transition: all 0.4s var(--ease);
+  position: relative;
+  overflow: hidden;
+}
+
+.grid-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  opacity: 0;
+  transition: opacity 0.4s var(--ease);
+}
+
+.grid-card:hover {
+  border-color: var(--gold);
+  transform: translateY(-6px);
+  box-shadow: 0 24px 48px -12px var(--gold-glow);
+}
+
+.grid-card:hover::before { opacity: 1; }
+
+.grid-card h3 {
+  margin-bottom: 16px;
+  color: var(--cream);
+}
+
+.grid-card p {
+  font-size: 0.95rem;
+  color: var(--text-dim);
+  line-height: 1.7;
+}
+
+/* Timeline/Agenda */
+.timeline {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  position: relative;
+  margin-bottom: 0;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+}
+
+.timeline-item {
+  position: relative;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.timeline-badge {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid var(--gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px;
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--gold);
+  background: rgba(201, 168, 76, 0.05);
+  transition: all 0.3s var(--ease);
+}
+
+.timeline-item:hover .timeline-badge {
+  background: var(--gold);
+  color: var(--black);
+}
+
+.timeline-item h4 {
+  color: var(--gold);
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+}
+
+.timeline-item p {
+  font-size: 0.9rem;
+  color: var(--text-dim);
+}
+
+@media (max-width: 900px) {
+  .grid-3 { grid-template-columns: 1fr; }
+  .timeline { grid-template-columns: repeat(2, 1fr); }
+  .timeline::before { display: none; }
+}
+
+/* Speaker cards */
+.speakers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 32px;
+  margin-bottom: 0;
+}
+
+.speaker-card {
+  text-align: center;
+  padding: 32px 24px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  transition: all 0.4s var(--ease);
+}
+
+.speaker-card:hover {
+  border-color: var(--gold);
+  transform: translateY(-6px);
+  box-shadow: 0 24px 48px -12px var(--gold-glow);
+}
+
+.speaker-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, rgba(201, 168, 76, 0.2), rgba(201, 168, 76, 0.05));
+  border: 2px solid var(--gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px;
+  font-family: var(--font-display);
+  font-size: 3rem;
+  color: var(--gold);
+}
+
+.speaker-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.speaker-title {
+  font-size: 0.85rem;
+  color: var(--gold);
+  letter-spacing: 0.05em;
+  margin-bottom: 16px;
+}
+
+.speaker-bio {
+  font-size: 0.9rem;
+  color: var(--text-dim);
+  line-height: 1.6;
+}
+
+/* Program section */
+.program-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  margin-bottom: 0;
+}
+
+.program-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border);
+  padding: 40px 32px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.program-card.featured {
+  border-color: var(--gold);
+  background: linear-gradient(135deg, rgba(201, 168, 76, 0.1), rgba(201, 168, 76, 0.02));
+  transform: scale(1.02);
+}
+
+.program-badge {
+  display: inline-block;
+  padding: 8px 16px;
+  background: var(--gold);
+  color: var(--black);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-radius: 2px;
+  margin-bottom: 24px;
+}
+
+.program-card h3 {
+  margin-bottom: 24px;
+}
+
+.program-feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 16px;
+  font-size: 0.9rem;
+  color: var(--text-dim);
+}
+
+.program-feature::before {
+  content: "✓";
+  color: var(--gold);
+  font-weight: bold;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+@media (max-width: 900px) {
+  .program-grid { grid-template-columns: 1fr; }
+  .program-card.featured { transform: scale(1); }
+}
+
+/* FAQ */
+.faq-item {
+  border-bottom: 1px solid var(--border);
+  padding: 24px 0;
+}
+
+.faq-q {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--cream);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  transition: color 0.3s var(--ease);
+}
+
+.faq-q:hover { color: var(--gold); }
+
+.faq-icon {
+  font-size: 1.5rem;
+  transition: transform 0.3s var(--ease);
+}
+
+.faq-item.open .faq-icon { transform: rotate(180deg); }
+
+.faq-a {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+  color: var(--text-dim);
+  line-height: 1.7;
+  margin-top: 12px;
+}
+
+.faq-item.open .faq-a {
+  max-height: 500px;
+}
+
+/* Final CTA */
+.final-cta {
+  text-align: center;
+  padding: var(--section-pad) 0;
+  position: relative;
+}
+
+.final-cta h2 {
+  margin-bottom: 16px;
+}
+
+.final-cta .subheading {
+  font-size: 1.2rem;
+  color: var(--gold);
+  margin-bottom: 48px;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cta-buttons .btn {
+  padding: 20px 40px;
+  font-size: 0.95rem;
+}
+
+/* Footer */
+footer {
+  background: #050505;
+  border-top: 1px solid var(--border-soft);
+  padding: 80px 0 40px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr 1fr;
+  gap: 48px;
+  margin-bottom: 48px;
+  max-width: var(--container);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 clamp(20px, 4vw, 48px);
+}
+
+.footer-col h4 {
+  color: var(--gold);
+  margin-bottom: 24px;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.footer-col ul { display: flex; flex-direction: column; gap: 12px; }
+.footer-col a { color: var(--text-dim); font-size: 0.9rem; transition: color 0.3s var(--ease); }
+.footer-col a:hover { color: var(--gold); }
+
+.footer-bottom {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 clamp(20px, 4vw, 48px);
+  border-top: 1px solid var(--border-soft);
+  padding-top: 24px;
+  text-align: center;
+  color: var(--text-faint);
+  font-size: 0.85rem;
+}
+
+@media (max-width: 900px) {
+  .footer-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Floating CTA */
+.floating-cta {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  opacity: 0;
+  transform: translateY(20px);
+  pointer-events: none;
+  transition: all 0.4s var(--ease);
+}
+
+.floating-cta.visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.fcta-main {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 28px;
+  background: var(--gold);
+  color: var(--black);
+  border-radius: 100px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transition: all 0.3s var(--ease);
+  box-shadow: 0 12px 36px -8px var(--gold-glow);
+}
+
+.fcta-main:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 48px -8px var(--gold-glow);
+}
+
+.fcta-dot {
+  width: 8px;
+  height: 8px;
+  background: var(--black);
+  border-radius: 50%;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(1.2); }
+}
+
+.fcta-phone {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 2px solid var(--gold);
+  color: var(--gold);
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s var(--ease);
+}
+
+.fcta-phone:hover {
+  background: var(--gold);
+  color: var(--black);
+  transform: translateY(-4px);
+}
+
+@media (max-width: 720px) {
+  .floating-cta {
+    bottom: 0;
+    right: 0;
+    left: 0;
+    flex-direction: row;
+    gap: 0;
+    border-radius: 0;
+    background: var(--black-soft);
+    border-top: 1px solid var(--border-soft);
+    padding: 12px 14px;
+    transform: translateY(100px);
+  }
+
+  .floating-cta.visible { transform: translateY(0); }
+  .fcta-main { flex: 1; border-radius: 2px; padding: 14px 20px; }
+  .fcta-phone { width: 48px; height: 48px; }
+}
+
+/* Reveal animation */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s var(--ease);
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.delay-1 { transition-delay: 0.1s; }
+.delay-2 { transition-delay: 0.2s; }
+.delay-3 { transition-delay: 0.3s; }
+.delay-4 { transition-delay: 0.4s; }
+
+@media (max-width: 600px) {
+  h1 { font-size: 2.2rem; }
+  h2 { font-size: 1.6rem; }
+  .hero-ctas { gap: 12px; }
+  .hero-ctas .btn { padding: 16px 28px; font-size: 0.8rem; }
+  .timeline { grid-template-columns: 1fr; gap: 32px; }
+  .timeline::before { display: none; }
+}
+</style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#" class="logo">
+      Liberty<span class="dot">.</span>Formation
+      <div class="logo-sub">Conférence</div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#intervenants">Intervenants</a></li>
+      <li><a href="#agenda">Agenda</a></li>
+      <li><a href="#programme">Programme</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc97TEL1LJdJ_cvRf4pC_qX2es0FG_rwgRPti0r0AAn4B11lA/viewform?usp=header" target="_blank" rel="noopener" class="nav-cta" data-cta="nav-cta">S'inscrire</a>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-date reveal delay-1">✦ 30 mai 2026 — Rennes</div>
+      <h1 class="reveal delay-2">
+        Gagnez <span class="gold">90 jours</span><br/>
+        d'avance sur votre OF
+      </h1>
+      <p style="font-size: 1.2rem; color: var(--text-dim); margin-bottom: 24px; max-width: 800px; margin-left: auto; margin-right: auto;" class="reveal delay-3">
+        Découvrez la méthode qui a permis à nos clients de lancer des organismes de formation certifiés Qualiopi + automatisés. Une soirée décisive pour débuter votre transformation.
+      </p>
+      <div class="hero-location reveal delay-3">
+        <strong>Samedi 30 mai 2026 • 19h00 - 21h00 • Rennes</strong>
+      </div>
+      <div class="hero-ctas reveal delay-4">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSc97TEL1LJdJ_cvRf4pC_qX2es0FG_rwgRPti0r0AAn4B11lA/viewform?usp=header" target="_blank" rel="noopener" class="btn btn-primary" data-cta="hero-primary">
+          Réserver ma place <span class="arrow">→</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Why This Conference -->
+<section id="pourquoi">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Pourquoi assister</span>
+      <h2>Trois raisons de transformer votre soirée en tournant</h2>
+      <p>Cette conférence n'est pas une présentation théorique. C'est un atelier pratique pour comprendre la méthode et voir comment l'appliquer immédiatement.</p>
+    </div>
+
+    <div class="grid-3">
+      <div class="grid-card reveal delay-1">
+        <h3>Les Éléments Fondamentaux</h3>
+        <p>Découvrez les 3 piliers essentiels pour lancer un organisme de formation rentable et automatisé. La même approche que nous avons testée sur notre propre OF à 4,6 M€.</p>
+      </div>
+      <div class="grid-card reveal delay-2">
+        <h3>Rencontrer l'Équipe</h3>
+        <p>Échangez directement avec les experts qui ont conçu la méthode. Questions, cas d'usage, démonstrations en live — c'est votre chance de vraiment comprendre.</p>
+      </div>
+      <div class="grid-card reveal delay-3">
+        <h3>Accès Prioritaire</h3>
+        <p>Les participants à la conférence bénéficient d'un accès prioritaire au programme Liberty Formation et de conditions spéciales pour les 30 jours qui suivent.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Agenda -->
+<section id="agenda">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Le Déroulement</span>
+      <h2>Une soirée structurée, pas un monologue</h2>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item reveal delay-1">
+        <div class="timeline-badge">1</div>
+        <h4>19h00</h4>
+        <p>Accueil & Networking</p>
+      </div>
+      <div class="timeline-item reveal delay-2">
+        <div class="timeline-badge">2</div>
+        <h4>19h15</h4>
+        <p>Intervention principale</p>
+      </div>
+      <div class="timeline-item reveal delay-3">
+        <div class="timeline-badge">3</div>
+        <h4>20h00</h4>
+        <p>Intervention spécialiste</p>
+      </div>
+      <div class="timeline-item reveal delay-4">
+        <div class="timeline-badge">4</div>
+        <h4>20h45</h4>
+        <p>Q&A + Fermeture</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Speakers -->
+<section id="intervenants">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Les Intervenants</span>
+      <h2>Rencontrez les experts</h2>
+      <p>Trois professionnels qui ont construit et scalé leurs propres organismes de formation partageront leurs insights.</p>
+    </div>
+
+    <div class="speakers-grid">
+      <div class="speaker-card reveal delay-1">
+        <div class="speaker-avatar">H</div>
+        <h3>Hassan Dorani</h3>
+        <div class="speaker-title">Fondateur & Expert</div>
+        <p class="speaker-bio">Créateur de Liberty Formation. A structuré, certifié et automatisé son propre OF avant de transmettre la méthode. ISO 9001, 4,6 M€ générés.</p>
+      </div>
+      <div class="speaker-card reveal delay-2">
+        <div class="speaker-avatar">M</div>
+        <h3>Intervenant 2</h3>
+        <div class="speaker-title">Expert en Automatisation</div>
+        <p class="speaker-bio">[À confirmer - Spécialiste en systèmes automatisés pour organismes de formation. Amène son expertise pratique et ses cas d'usage concrets.]</p>
+      </div>
+      <div class="speaker-card reveal delay-3">
+        <div class="speaker-avatar">L</div>
+        <h3>Intervenant 3</h3>
+        <div class="speaker-title">Expert en CPF/OPCO</div>
+        <p class="speaker-bio">[À confirmer - Spécialiste des financements CPF et OPCO. Montre comment accéder aux sources de revenus qui font la différence.]</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Program Preview -->
+<section id="programme">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Le Premier Pas</span>
+      <h2>Vers Liberty Formation — Trois formats pour progresser</h2>
+      <p>Après cette conférence, vous saurez exactement quelle est la prochaine étape. Trois options vous attendront.</p>
+    </div>
+
+    <div class="program-grid">
+      <div class="program-card reveal delay-1">
+        <div class="program-badge">E-Learning</div>
+        <h3>Pack Digital</h3>
+        <ul style="margin-bottom: 32px;">
+          <li class="program-feature">Tous les modules en vidéo</li>
+          <li class="program-feature">Accès illimité à la plateforme</li>
+          <li class="program-feature">Mises à jour incluses</li>
+          <li class="program-feature">Communauté Discord</li>
+        </ul>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSc97TEL1LJdJ_cvRf4pC_qX2es0FG_rwgRPti0r0AAn4B11lA/viewform?usp=header" target="_blank" rel="noopener" class="btn btn-ghost" style="width: 100%; justify-content: center;" data-cta="program-elearning">
+          En savoir plus <span class="arrow">→</span>
+        </a>
+      </div>
+
+      <div class="program-card featured reveal delay-2">
+        <div class="program-badge" style="background: var(--black); color: var(--gold);">✓ Recommandé</div>
+        <h3>Done With You</h3>
+        <ul style="margin-bottom: 32px;">
+          <li class="program-feature">Accompagnement personnalisé</li>
+          <li class="program-feature">Sessions hebdomadaires</li>
+          <li class="program-feature">Support pour certification Qualiopi</li>
+          <li class="program-feature">Accès financements (CPF, OPCO, France Travail)</li>
+          <li class="program-feature">Système automatisé inclus</li>
+        </ul>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSc97TEL1LJdJ_cvRf4pC_qX2es0FG_rwgRPti0r0AAn4B11lA/viewform?usp=header" target="_blank" rel="noopener" class="btn btn-primary" style="width: 100%; justify-content: center;" data-cta="program-dwy">
+          Choisir Done With You <span class="arrow">→</span>
+        </a>
+      </div>
+
+      <div class="program-card reveal delay-3">
+        <div class="program-badge">Premium</div>
+        <h3>Done For You</h3>
+        <ul style="margin-bottom: 32px;">
+          <li class="program-feature">Tout est fait pour vous</li>
+          <li class="program-feature">Certification Qualiopi garantie</li>
+          <li class="program-feature">Système opérationnel au lancement</li>
+          <li class="program-feature">Suivi jusqu'à l'obtention NDA</li>
+          <li class="program-feature">Garantie remboursement</li>
+        </ul>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSc97TEL1LJdJ_cvRf4pC_qX2es0FG_rwgRPti0r0AAn4B11lA/viewform?usp=header" target="_blank" rel="noopener" class="btn btn-ghost" style="width: 100%; justify-content: center;" data-cta="program-dfy">
+          En savoir plus <span class="arrow">→</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" style="background: var(--cream); color: var(--black);">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow" style="color: var(--black);">Questions Fréquentes</span>
+      <h2 style="color: var(--black);">Vous avez des doutes? C'est normal.</h2>
+    </div>
+
+    <div style="max-width: 800px; margin: 0 auto;">
+      <div class="faq-item" style="border-color: rgba(0,0,0,0.1);">
+        <div class="faq-q" style="color: var(--black);">
+          La conférence est vraiment gratuite?
+          <span class="faq-icon">⊕</span>
+        </div>
+        <div class="faq-a" style="color: var(--text-faint);">
+          Oui, absolument. C'est notre façon de vous montrer la méthode avant de vous proposer un accompagnement. Aucun engagement, aucun upsell agressif pendant la soirée.
+        </div>
+      </div>
+
+      <div class="faq-item" style="border-color: rgba(0,0,0,0.1);">
+        <div class="faq-q" style="color: var(--black);">
+          Est-ce que c'est adapté à mon niveau?
+          <span class="faq-icon">⊕</span>
+        </div>
+        <div class="faq-a" style="color: var(--text-faint);">
+          Oui. Que tu sois débutant ou que tu aies déjà une expertise, la conférence couvre les fondamentaux qui font la différence. Les questions spécifiques pourront être adressées en Q&A.
+        </div>
+      </div>
+
+      <div class="faq-item" style="border-color: rgba(0,0,0,0.1);">
+        <div class="faq-q" style="color: var(--black);">
+          Je peux venir avec un associé?
+          <span class="faq-icon">⊕</span>
+        </div>
+        <div class="faq-a" style="color: var(--text-faint);">
+          Bien sûr. En fait, c'est recommandé. Vous pourrez tous les deux intégrer la conversation et avancer ensemble sur votre projet.
+        </div>
+      </div>
+
+      <div class="faq-item" style="border-color: rgba(0,0,0,0.1);">
+        <div class="faq-q" style="color: var(--black);">
+          Qu'est-ce qu'il se passe après la conférence?
+          <span class="faq-icon">⊕</span>
+        </div>
+        <div class="faq-a" style="color: var(--text-faint);">
+          Vous recevrez les ressources de la soirée + une invitation à un appel stratégique gratuit (si vous le souhaitez) pour discuter des prochaines étapes de votre projet OF.
+        </div>
+      </div>
+
+      <div class="faq-item" style="border-color: rgba(0,0,0,0.1);">
+        <div class="faq-q" style="color: var(--black);">
+          Combien de places disponibles?
+          <span class="faq-icon">⊕</span>
+        </div>
+        <div class="faq-a" style="color: var(--text-faint);">
+          Nous limitons à 30 personnes pour garantir une vraie qualité d'interaction. C'est un événement exclusif, pas une conférence massive.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Final CTA -->
+<section class="final-cta">
+  <div class="container">
+    <h2>Vous êtes prêt?</h2>
+    <p class="subheading">⏱ 30 places disponibles — Inscrivez-vous dès maintenant</p>
+    <div class="cta-buttons">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSc97TEL1LJdJ_cvRf4pC_qX2es0FG_rwgRPti0r0AAn4B11lA/viewform?usp=header" target="_blank" rel="noopener" class="btn btn-primary" data-cta="final-cta">
+        Réserver ma place gratuitement <span class="arrow">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-col">
+      <h4>Liberty Formation</h4>
+      <p style="font-size: 0.9rem; color: var(--text-dim); line-height: 1.7;">Conférence exclusive pour futurs organismes de formation certifiés. Le premier pas vers votre OF automatisé.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Navigation</h4>
+      <ul>
+        <li><a href="#intervenants">Intervenants</a></li>
+        <li><a href="#agenda">Agenda</a></li>
+        <li><a href="#programme">Programme</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Ressources</h4>
+      <ul>
+        <li><a href="#">Qui sommes-nous</a></li>
+        <li><a href="#">Mentions légales</a></li>
+        <li><a href="#">Politique de confidentialité</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="mailto:contact@forma-sphere.fr">contact@forma-sphere.fr</a></li>
+        <li><a href="tel:+33649505980">06 49 50 59 80</a></li>
+        <li><a href="#">LinkedIn</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    © 2026 Liberty Formation. Tous droits réservés.
+  </div>
+</footer>
+
+<!-- Floating CTA -->
+<div class="floating-cta" id="floatingCta">
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSc97TEL1LJdJ_cvRf4pC_qX2es0FG_rwgRPti0r0AAn4B11lA/viewform?usp=header" target="_blank" rel="noopener" class="fcta-main" data-cta="floating-primary">
+    <span class="fcta-dot"></span>
+    S'inscrire
+  </a>
+  <a href="tel:+33649505980" class="fcta-phone" aria-label="Appeler">✆</a>
+</div>
+
+<script>
+// Navigation scroll detection
+const nav = document.getElementById('nav');
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 40) {
+    nav.classList.add('scrolled');
+  } else {
+    nav.classList.remove('scrolled');
+  }
+});
+
+// Floating CTA visibility
+const floatingCta = document.getElementById('floatingCta');
+const body = document.body;
+
+window.addEventListener('scroll', () => {
+  const heroHeight = document.querySelector('.hero').offsetHeight;
+  const scrollPosition = window.scrollY;
+
+  if (scrollPosition > heroHeight * 0.6) {
+    floatingCta.classList.add('visible');
+    body.classList.add('floating-cta-visible');
+  } else {
+    floatingCta.classList.remove('visible');
+    body.classList.remove('floating-cta-visible');
+  }
+});
+
+// Reveal on scroll animation
+const observerOptions = {
+  threshold: 0.15,
+  rootMargin: '-60px'
+};
+
+const revealObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, observerOptions);
+
+document.querySelectorAll('.reveal').forEach(el => {
+  revealObserver.observe(el);
+});
+
+// FAQ toggle
+document.querySelectorAll('.faq-q').forEach(question => {
+  question.addEventListener('click', () => {
+    const item = question.closest('.faq-item');
+
+    // Close other items
+    document.querySelectorAll('.faq-item.open').forEach(openItem => {
+      if (openItem !== item) {
+        openItem.classList.remove('open');
+        const answer = openItem.querySelector('.faq-a');
+        answer.style.maxHeight = '0';
+      }
+    });
+
+    // Toggle current item
+    item.classList.toggle('open');
+    const answer = item.querySelector('.faq-a');
+
+    if (item.classList.contains('open')) {
+      answer.style.maxHeight = answer.scrollHeight + 'px';
+    } else {
+      answer.style.maxHeight = '0';
+    }
+  });
+});
+
+// Smooth scroll for nav links
+document.querySelectorAll('.nav-links a').forEach(link => {
+  link.addEventListener('click', (e) => {
+    e.preventDefault();
+    const target = document.querySelector(link.getAttribute('href'));
+    if (target) {
+      const offset = 100;
+      const targetPosition = target.offsetTop - offset;
+      window.scrollTo({
+        top: targetPosition,
+        behavior: 'smooth'
+      });
+    }
+  });
+});
+</script>
+
+</body>
+</html>
